@@ -1,0 +1,6 @@
+FROM nginx
+LABEL maintainer 'Stenio Neves <stenioneves@outlook.com>'
+COPY nginx.conf /etc/nginx/nginx/nginx.conf
+
+
+
